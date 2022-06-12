@@ -1,0 +1,19 @@
+[config]
+name="Location"
+binary="location.xcframework"
+
+initialization="register_location_plugin"
+deinitialization="unregister_location_plugin"
+
+[dependencies]
+linked=[]
+embedded=[]
+system=[]
+
+capabilities=[]
+
+files=[]
+
+[plist]
+NSLocationWhenInUseUsageDescription:string="Display Message for Location When In Use Usage Description"
+NSLocationAlwaysAndWhenInUseUsageDescription:string="Display Message Location Always and When In Use Usage Description"
