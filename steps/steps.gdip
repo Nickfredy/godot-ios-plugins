@@ -1,0 +1,18 @@
+[config]
+name="Steps"
+binary="steps.xcframework"
+
+initialization="register_steps_plugin"
+deinitialization="unregister_steps_plugin"
+
+[dependencies]
+linked=[]
+embedded=[]
+system=[]
+
+capabilities=[]
+
+files=[]
+
+[plist]
+NSMotionUsageDescription:string="Need access to motion data to track steps."
